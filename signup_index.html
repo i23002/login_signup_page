@@ -5,17 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Sign Up</title>
 </head>
 <body>
-    <header>
-        <h1>Thanks For Choosing Us</h1>
-        <p>Please Sign Up Here </p>
+    <header><h1><strong>Welcome!</strong></h1>
+        <p><em><u>Please Sign Up Here</u></em></p>
     </header>
     <main>
-        <main class="main">
+        <form id="survey-form">
             <h2>SIGN UP</h2>
-            <form>
                 <div class="mail">
                     <label for="mail" name="email" id="email">Email
                         <input type="text" id="mail" name="email">
@@ -30,20 +29,19 @@
                     <button type="submit" id="button">SIGN UP</button>
                 </div>
                 <div class="hr">
+                    <hr id="first">
                     <p>OR</p>
+                    <hr id="last">
+                </div>
+                <div class="social">
+                    <a href="#" id="profile-link" target="_blank"><i id = "facebook"class="fa fa-facebook-official"></i></a>
+                    <a href="#" id="profile-link" target="_blank"><i id ="google"class="fa fa-google"></i></a>
+                    <a href="#" class="profile-link" target="_blank"><i id="linkdin" class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="link">
+                    <p>Already a User?<a href="signup_index.html" target="_blank">LOGIN</a></p>
                 </div>
             </form>
-        </main>
-        <footer>
-            <div class="social">
-                <a href="#" id="profile-link" target="_blank"><i id = "facebook"class="fa fa-facebook-official"></i></a>
-                <a href="#" id="profile-link" target="_blank"><i id ="google"class="fa fa-google"></i></a>
-                <a href="#" class="profile-link" target="_blank"><i id="linkdin" class="fa fa-linkedin"></i></a>
-            </div>
-            <div class="link">
-                <p>Already a User?<a href="index.html" target="_blank">LOGIN</a></p>
-            </div>
-        </footer>
     </main>
 </body>
 </html>
