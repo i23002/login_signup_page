@@ -1,8 +1,11 @@
-
+body{
+    background-color: #45567d;
+}
 header{
     margin: 10px auto 10px auto;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 header h1{
     font-size: 35px;
@@ -18,9 +21,10 @@ main , footer{
     background-color: white;
     color: black;
     display: block;
-    border: 5px solid black;
+    border: 3px solid white;
     margin: 0px auto 0px auto;
     padding: 15px 35px 35px 35px;
+    border-radius: 5%;
 }
 .mail , .password , .remeberme , .button , .password_forget , .hr, .social , .link , h2{
     margin: 25px 25px 25px 25px;
@@ -127,4 +131,131 @@ button{
     color: #0A66C2;
     margin-left: 5px;
     margin-right: 2px;
+}
+.link{
+    display: block;
+    padding: 0px 5px 0px 10px;
+}
+.link p{
+    display: block;
+    font-size: 19px;
+}
+.link p a{
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.link p a:hover{
+    color: blue;
+}
+input{
+    display: block;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+@media (max-width:815px){
+    header{
+        margin: 5px auto 5px auto;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header h1{
+        font-size: 29px;
+    }
+    header p{
+        display: block;
+        font-size: 19px;
+    }
+    #survey-form{
+        background-color: white;
+        color: black;
+        display: block;
+        border: 5px solid white;
+        margin: 0px auto 0px auto;
+        padding: 5px 6px 6px 6px;
+        border-radius: 5%;
+    }
+    .mail , .password , .remeberme , .button , .password_forget , .hr, .social , .link , h2{
+        margin: 15px 15px 15px 15px;
+    }
+    .password_forget{
+        text-align: right;
+    }
+    .password_forget p{
+        font-size: 19px;
+        margin-top: -5px;
+    }
+    #email{
+        display: block;
+        font-size: 20px;
+       
+    }
+    #mail{
+        display: block;
+        font-size: 24px;
+        margin-top: 5px;
+        width: 100%;
+    }
+    #passw{
+        display: block;
+        font-size: 20px;
+    }
+    #password{
+        display: block;
+        width: 100%;
+        font-size: 24px;
+    }
+    [type = "checkbox"]{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+    }
+    #profile-link{
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+       
+    }
+    #facebook , #google , #linkdin{
+        font-size: 25px;
+        
+    }
+    #facebook{
+        margin-right: 5px;
+        color: 	#4267B2;
+    }
+    #google{
+        color: #db4a39;
+        margin-right: 5px;
+    }
+    #linkdin{
+        color: #0A66C2;
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+    button{
+        display: block;
+        width: 100%;
+        height: 2.075rem;
+        cursor: pointer;
+        border-radius: 2px;
+        background-color:green;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.015rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: white;
+    }
+    .link p{
+        display: block;
+        font-size: 19px;
+    }
+    .link p a{
+        display: inline-block;
+        margin-left: 5px;
+        text-decoration: none;
+        color: black;
+    }
 }
