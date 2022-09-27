@@ -63,7 +63,7 @@ main , footer{
 [type = "checkbox"]{
     display: inline-block;
     height: 20px;
-    width: 10px;
+    width: 20px;
     margin-right: 10px;
 }
 #remember{
