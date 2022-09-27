@@ -275,7 +275,7 @@ input{
         margin-bottom: 20px;
     }
     .link p{
-        display: block;
+        display: inline-block;
         font-size: 19px;
     }
     .link p a{
