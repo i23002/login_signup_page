@@ -282,9 +282,10 @@ input{
     .link p{
         
         font-size: 19px;
+        margin-left: -4px;
     }
     .link p a{
-        margin-left: 5px;
+        margin-left: 1px;
         text-decoration: none;
         color: black;
     }
